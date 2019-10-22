@@ -11,3 +11,7 @@ Transactions CSV file format:
 > id,transaction
 
 Where transaction will be a positive integer if it is a deposit or a negative integer if it is a withdraw
+
+To run Unit Tests:
+> python -m unittest test_account
+
