@@ -6,6 +6,7 @@ if __name__ == "__main__":
 	
 	if len(sys.argv) < 3:
 		print("ERROR: missing arguments");
+		exit()
 
 	with open(sys.argv[1]) as csv_savings:
 	    savings_reader = csv.reader(csv_savings, delimiter=',')
