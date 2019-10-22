@@ -1,7 +1,7 @@
 import unittest
 from account import Account
 
-class TestBank(unittest.TestCase):
+class TestAccount(unittest.TestCase):
 
 	def test_deposit(self):
 		accountTest = Account(123,10000)
